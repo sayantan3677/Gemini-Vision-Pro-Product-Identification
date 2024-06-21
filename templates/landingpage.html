@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Discovery API</title>
+    <link href="{{url_for('static', path='/landingpage.css')}}"></link>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"> -->
+    <script href="{{url_for('static', path='/landingpage.js')}}"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <h1 class="content-head is-center">Discover Products with Google Gemini Pro Vision</h1>
+            <p class="header-subtitle">Empower your business with our advanced product discovery API</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="features-section">
+            <div class="container features-container">
+                <h2 class="section-title">Features</h2>
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <h3 class="feature-title">Advanced Vision Model</h3>
+                        <p class="feature-description">Utilize the power of Google Gemini Pro Vision for accurate product recognition and discovery.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Seamless Integration</h3>
+                        <p class="feature-description">Easy to integrate API for fast and efficient implementation in your applications.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Real-time Processing</h3>
+                        <p class="feature-description">Experience real-time product recognition and data processing to enhance user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-container">
+                <h2 class="section-title">Contact Us</h2>
+                <form class="pure-form pure-form-stacked">
+                
+                    <label for="name" class="contact-label">Name:</label>
+                    <input type="text" id="name" name="name" class="contact-input" required>
+                    <label for="email" class="contact-label">Email:</label>
+                    <input type="email" id="email" name="email" class="contact-input" required>
+                    <!-- <label for="message" class="contact-label">Message:</label>
+                    <textarea id="message" name="message" class="contact-textarea" required></textarea> -->
+                    <button type="submit" class="pure-button pure-button-active">Send Message</button>
+            </form>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-text">&copy; 2024 Product Discovery API. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
